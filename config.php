@@ -1,5 +1,5 @@
 <?php
-$node = 'https://karbo.club/services/node_web';
+$node = 'https://api.cybersecuresix.com/;
 return array(
 	'api' => $node,
 	'blockTargetInterval' => 60,

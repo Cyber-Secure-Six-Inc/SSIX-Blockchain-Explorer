@@ -1,4 +1,4 @@
-var api = 'https://api.cybersecuresix.com/';
+var api = 'https://api.cybersecuresix.com';
 var apiList = ["http://65.21.159.250:8201", "http://51.15.252.228:8201"];
 
 var blockTargetInterval = 60;
