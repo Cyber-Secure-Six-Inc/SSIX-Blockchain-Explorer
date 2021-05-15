@@ -359,7 +359,7 @@
 				if (!isNaN(data.fee_amount)) {
 					var nodeFee = data.fee_amount;
 					console.log("fee for " + nname + ": " + nodeFee);
-					updateText('fee-' + nname,  parseFloat(getReadableCoins(nodeFee, 12, true)).toString() + "\xa0KRB");
+					updateText('fee-' + nname,  parseFloat(getReadableCoins(nodeFee, 12, true)).toString() + "\xa0SSIX");
 				}
 			}).fail(function() {
 				console.log( "Error getting node's fee: " + nname );
