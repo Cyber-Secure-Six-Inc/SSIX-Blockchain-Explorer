@@ -1622,15 +1622,15 @@ return{_strlen:lb,_ge_mul8:Va,_keccak:db,_ge_scalarmult:Ta,_ge_fromfe_frombytes_
 
 
 
-var salt = '4721283fee2db41e1f2fc50ea9f6d783'; // IMPORTANT: never change it, otherwise it will be impossible to restore previously generated wallets!
+var salt = 'Aqeb0rJ1vcem9MnM6WqBzplwqjRcBsF7'; // IMPORTANT: never change it, otherwise it will be impossible to restore previously generated wallets!
 var config = {
-    coinUnitPlaces: 12,
-    addressPrefix: 111
+    coinUnitPlaces: 2,
+    addressPrefix: 150
 };
 var cnUtil = (function(initConfig) {
     //var config = $.extend({}, initConfig);
     var config = initConfig;
-    config.coinUnits = new JSBigInt(10).pow(config.coinUnitPlaces);
+    config.coinUnits = new JSBigInt(2).pow(config.coinUnitPlaces);
 
     var HASH_STATE_BYTES = 200;
     var HASH_SIZE = 32;
