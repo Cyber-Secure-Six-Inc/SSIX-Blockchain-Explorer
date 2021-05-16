@@ -45,11 +45,11 @@ nav .brand-logo {
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	background-color: #fff;
 	display: inline-block;
 	vertical-align: middle;
     margin-top: -6px;
     margin-right: 10px;
+     background-image: url("https://uploads-ssl.webflow.com/605a69054a6f3bc14b61c508/60a06c81bd4b92a18f50ca49_ssix.png");
 }
 
 #coin_icon svg {
