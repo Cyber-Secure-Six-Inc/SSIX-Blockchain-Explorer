@@ -8,12 +8,4 @@ var blocksPerPage = 20;
 var whiteTheme = "css/light.css";
 var nightTheme = "css/dark.css";
 var addressPattern = new RegExp("^S6[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{94}$");
-// pools stats by MainCoins
-var poolsStat = 
-	[
-		["karbo.hashvault.pro", "https://karbo.hashvault.pro/api/pool/stats"],
-		["krb.semipool.com", "https://webkrb.semipool.com/api/pool/stats"],
-		["cnpool.cc/krb", "https://cnpool.cc/api/krb/stats"]
-    ];
 
-	
